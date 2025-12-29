@@ -155,6 +155,7 @@ In this case, the model successfully predicted that the input review is Positive
 In this case, the model successfully predicted that the input review is Negative.
 ```
 ------------------------------------------------------------------------------------------
+
 ## 📈Results
 ```bash
 The model is trained on the IMDb movie review dataset and successfully 
@@ -164,6 +165,7 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
 
