@@ -5,20 +5,20 @@ This project is a machine learning tool built using Support Vector Machines (SVM
 
 
 ## 📑 Table of Contents
-- [📥 Installation](#installation)
-- [📊 Dataset](#dataset)
-- [⚙️ Usage](#usage)
-- [🛠️ How I Built It](#-how-i-built-it)
-- [🚀 Key Features](#-key-features)
-- [📂 File Structure](#-file-structure)
-- [💻 How to Run](#-how-to-run)
-- [🧠 Model Architecture](#model-architecture)
-- [🏋️ Training](#training)
-- [🌐 API](#api)
-- [📈 Results](#results)
+- [📥Installation](#installation)
+- [📊Dataset](#dataset)
+- [⚙️Usage](#usage)
+- [🛠️How I Built It](#how-i-built-it)
+- [🚀Key Features](#key-features)
+- [📂File Structure](#file-structure)
+- [💻How to Run](#how-to-run)
+- [🧠Model Architecture](#model-architecture)
+- [🏋️Training](#training)
+- [🌐API](#api)
+- [📈Results](#results)
 
 
-## 📥 Installation
+## 📥Installation
 
 To run this project, you need Python installed along with the following libraries:
 
@@ -26,7 +26,7 @@ To run this project, you need Python installed along with the following librarie
 pip install scikit-learn nltk pandas joblib ipywidgets
 ```
 
-## 📊 Dataset
+## 📊Dataset
 The dataset should be organized as follows:
 ```bash
 movies_sentiment_analysis/
@@ -41,7 +41,7 @@ movies_sentiment_analysis/
 Where the data/ folder contains your CSV files and models/ contains your saved machine learning files.
 ```
 
-## ⚙️ Usage
+## ⚙️Usage
 1. Clone the repository and navigate to the project folder.
 2. Update the variable path to the location where your dataset is stored.
 3. Run the Jupyter Notebook or Python script to train the model on the dataset.
@@ -51,7 +51,7 @@ Where the data/ folder contains your CSV files and models/ contains your saved m
 dataset_path = r"C:\path\to\your\project\data\sample_reviews.csv"
 ```
 
-## 🛠️ How I Built It
+## 🛠️How I Built It
 ```bash
 1. Data Collection: Used a dataset of movie reviews.
 2. Text Preprocessing: 
@@ -64,14 +64,14 @@ dataset_path = r"C:\path\to\your\project\data\sample_reviews.csv"
    The Linear Kernel performed best.
 ```
 
-## 🚀 Key Features
+## 🚀Key Features
 ```bash
 - Interactive Predictor: A Jupyter widget interface to test any review.
 - Improved Accuracy: By keeping "not" in the text, the model correctly 
   identifies "not good" as Negative.
 ```
 
-## 📂 File Structure
+## 📂File Structure
 ```bash
 - 1_Training.ipynb: The notebook where I cleaned data and trained the SVM.
 - 2_Predictor.ipynb: The "API" notebook with the input box for testing.
@@ -79,14 +79,14 @@ dataset_path = r"C:\path\to\your\project\data\sample_reviews.csv"
 - requirements.txt: The libraries needed to run this project.
 ```
 
-## 💻 How to Run
+## 💻How to Run
 1. Clone this repository.
 2. Install libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🧠 Model Architecture
+## 🧠Model Architecture
 The model consists of a text preprocessing pipeline followed by an SVM classifier. The architecture is as follows:
 
 1. **Preprocessing:**
@@ -106,7 +106,7 @@ The model consists of a text preprocessing pipeline followed by an SVM classifie
 - Linear Kernel for high-dimensional text separation
 ```
 
-## 🏋️ Training
+## 🏋️Training
 The model is trained using the Scikit-learn LinearSVC optimizer and TF-IDF features. The dataset is split into training (80%) and validation (20%) sets.
 
 ```bash
@@ -126,7 +126,7 @@ joblib.dump(model, 'svm_model.joblib')
 savedModel = joblib.load('svm_model.joblib')
 ```
 
-## 🌐 API
+## 🌐API
 ### Step 1: Upload the Image
 ```bash
 In this step, you will enter the text of the movie review you want to classify. 
@@ -135,7 +135,7 @@ which is then processed by the model for prediction.
 ```
 Below is an example of the input screen:
 
-<img src="Images/Screenshot_1.png" alt="First Image" width="600" />
+<img src="images/Screenshot_1.png" alt="First Image" width="600" />
 
 ### Step 2: View the Result
 ```bash
@@ -145,13 +145,13 @@ predicted category name.
 ```
 Below is an example of the result screen showing the model’s prediction:
 
-<img src="Images/Screenshot_2.png" alt="Second Image" width="600" />
-<img src="Images/Screenshot_3.png" alt="Second Image" width="600" />
-<img src="Images/Screenshot_2.png" alt="Second Image" width="250" />
+<img src="images/Screenshot_2.png" alt="Second Image" width="600" />
+<img src="images/Screenshot_3.png" alt="Second Image" width="600" />
+<img src="images/Screenshot_2.png" alt="Second Image" width="250" />
 
 In this case, the model successfully predicted that the input review is Positive or Negative.
 
-## 📈 Results
+## 📈Results
 ```bash
 The model is trained on the IMDb movie review dataset and successfully 
 predicts sentiment categories. For example, a complex review is predicted as:
@@ -160,5 +160,6 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
