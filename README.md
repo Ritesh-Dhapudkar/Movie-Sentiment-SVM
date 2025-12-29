@@ -7,9 +7,9 @@ This project is a machine learning tool built using Support Vector Machines (SVM
 ## 📑 Table of Contents
 - [📥Installation](#installation)
 - [📊Dataset](#dataset)
-- [🛠️Usage](#usage)
-- [🏗️How I Built It](#how-i-built-it)
-- [🚀Key Features](#key-features)
+- [🔒Usage](#usage)
+- [🚀How I Built It](#how-i-built-it)
+- [📌Key Features](#key-features)
 - [📂File Structure](#file-structure)
 - [💻How to Run](#how-to-run)
 - [🧠Model Architecture](#model-architecture)
@@ -41,7 +41,7 @@ movies_sentiment_analysis/
 Where the data/ folder contains your CSV files and models/ contains your saved machine learning files.
 ```
 
-## 🛠️Usage
+## 🔒Usage
 1. Clone the repository and navigate to the project folder.
 2. Update the variable path to the location where your dataset is stored.
 3. Run the Jupyter Notebook or Python script to train the model on the dataset.
@@ -51,7 +51,7 @@ Where the data/ folder contains your CSV files and models/ contains your saved m
 dataset_path = r"C:\path\to\your\project\data\sample_reviews.csv"
 ```
 
-## 🏗️How I Built It
+## 🚀How I Built It
 ```bash
 1. Data Collection: Used a dataset of movie reviews.
 2. Text Preprocessing: 
@@ -64,7 +64,7 @@ dataset_path = r"C:\path\to\your\project\data\sample_reviews.csv"
    The Linear Kernel performed best.
 ```
 
-## 🚀Key Features
+## 📌Key Features
 ```bash
 - Interactive Predictor: A Jupyter widget interface to test any review.
 - Improved Accuracy: By keeping "not" in the text, the model correctly 
@@ -132,9 +132,9 @@ In this step, you will enter the text of the movie review you want to classify.
 The system allows you to type or paste a review into an interactive text area, 
 which is then processed by the model for prediction.
 ```
-Below is an example of the input screen:
+**Below is an example of the input screen:**
 
-<img src="images/Screenshot_1.png" alt="First Image" width="800" />
+<img src="images/Screenshot_1.png" alt="First Image" width="1000" />
 
 ### Step 2: View the Result
 ```bash
@@ -142,16 +142,19 @@ After the review is submitted, the model will predict whether the sentiment
 is Positive or Negative. The result will be displayed clearly with the 
 predicted category name.
 ```
-Below is an example of the result screen showing the model’s prediction:
+**Below is an example of the result screen showing the model’s prediction:**
 
-<img src="images/Screenshot_2.png" alt="Second Image" width="800" />
+<img src="images/Screenshot_2.png" alt="Second Image" width="1000" />
 
+```bash
 In this case, the model successfully predicted that the input review is Positive
-
-<img src="images/Screenshot_3.png" alt="Second Image" width="800" />
-
+```
+-----------------------------------------------------------------------------------------
+<img src="images/Screenshot_3.png" alt="Second Image" width="1000" />
+```bash
 In this case, the model successfully predicted that the input review is Negative.
-
+```
+------------------------------------------------------------------------------------------
 ## 📈Results
 ```bash
 The model is trained on the IMDb movie review dataset and successfully 
@@ -161,6 +164,7 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
 
