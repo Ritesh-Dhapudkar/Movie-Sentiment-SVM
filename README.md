@@ -7,13 +7,13 @@ This project is a machine learning tool built using Support Vector Machines (SVM
 ## 📑 Table of Contents
 - [📥Installation](#installation)
 - [📊Dataset](#dataset)
-- [⚙️Usage](#-usage)
-- [🛠️How I Built It](#-how-i-built-it)
+- [🛠️Usage](#-usage)
+- [🏗️How I Built It](#-how-i-built-it)
 - [🚀Key Features](#key-features)
 - [📂File Structure](#file-structure)
 - [💻How to Run](#how-to-run)
 - [🧠Model Architecture](#model-architecture)
-- [🏋️Training](#-training)
+- [📖Training](#-training)
 - [🌐API](#api)
 - [📈Results](#results)
 
@@ -41,7 +41,7 @@ movies_sentiment_analysis/
 Where the data/ folder contains your CSV files and models/ contains your saved machine learning files.
 ```
 
-## ⚙️Usage
+## 🛠️Usage
 1. Clone the repository and navigate to the project folder.
 2. Update the variable path to the location where your dataset is stored.
 3. Run the Jupyter Notebook or Python script to train the model on the dataset.
@@ -51,7 +51,7 @@ Where the data/ folder contains your CSV files and models/ contains your saved m
 dataset_path = r"C:\path\to\your\project\data\sample_reviews.csv"
 ```
 
-## 🛠️How I Built It
+## 🏗️How I Built It
 ```bash
 1. Data Collection: Used a dataset of movie reviews.
 2. Text Preprocessing: 
@@ -106,7 +106,7 @@ The model consists of a text preprocessing pipeline followed by an SVM classifie
 - Linear Kernel for high-dimensional text separation
 ```
 
-## 🏋️Training
+## 📖Training
 The model is trained using the Scikit-learn LinearSVC optimizer and TF-IDF features. The dataset is split into training (80%) and validation (20%) sets.
 ```bash
 # Training the model
@@ -161,6 +161,7 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
 
