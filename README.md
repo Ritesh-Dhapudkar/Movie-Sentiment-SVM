@@ -7,13 +7,13 @@ This project is a machine learning tool built using Support Vector Machines (SVM
 ## 📑 Table of Contents
 - [📥Installation](#installation)
 - [📊Dataset](#dataset)
-- [🛠️Usage](#-usage)
-- [🏗️How I Built It](#-how-i-built-it)
+- [🛠️Usage](#usage)
+- [🏗️How I Built It](#how-i-built-it)
 - [🚀Key Features](#key-features)
 - [📂File Structure](#file-structure)
 - [💻How to Run](#how-to-run)
 - [🧠Model Architecture](#model-architecture)
-- [📖Training](#-training)
+- [📖Training](#training)
 - [🌐API](#api)
 - [📈Results](#results)
 
@@ -161,6 +161,7 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
 
