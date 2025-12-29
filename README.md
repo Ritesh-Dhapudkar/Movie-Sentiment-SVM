@@ -151,9 +151,11 @@ In this case, the model successfully predicted that the input review is Positive
 ```
 -----------------------------------------------------------------------------------------
 <img src="images/Screenshot_3.png" alt="Second Image" width="1000" />
+
 ```bash
 In this case, the model successfully predicted that the input review is Negative.
 ```
+
 ------------------------------------------------------------------------------------------
 
 ## 📈Results
@@ -165,6 +167,7 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
 
