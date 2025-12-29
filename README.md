@@ -108,7 +108,6 @@ The model consists of a text preprocessing pipeline followed by an SVM classifie
 
 ## 🏋️Training
 The model is trained using the Scikit-learn LinearSVC optimizer and TF-IDF features. The dataset is split into training (80%) and validation (20%) sets.
-
 ```bash
 # Training the model
 from sklearn.svm import LinearSVC
@@ -135,7 +134,7 @@ which is then processed by the model for prediction.
 ```
 Below is an example of the input screen:
 
-<img src="images/Screenshot_1.png" alt="First Image" width="600" />
+<img src="images/Screenshot_1.png" alt="First Image" width="800" />
 
 ### Step 2: View the Result
 ```bash
@@ -145,11 +144,13 @@ predicted category name.
 ```
 Below is an example of the result screen showing the model’s prediction:
 
-<img src="images/Screenshot_2.png" alt="Second Image" width="600" />
-<img src="images/Screenshot_3.png" alt="Second Image" width="600" />
-<img src="images/Screenshot_2.png" alt="Second Image" width="250" />
+<img src="images/Screenshot_2.png" alt="Second Image" width="800" />
 
-In this case, the model successfully predicted that the input review is Positive or Negative.
+In this case, the model successfully predicted that the input review is Positive
+
+<img src="images/Screenshot_3.png" alt="Second Image" width="800" />
+
+In this case, the model successfully predicted that the input review is Negative.
 
 ## 📈Results
 ```bash
@@ -160,6 +161,7 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
 
 
 
