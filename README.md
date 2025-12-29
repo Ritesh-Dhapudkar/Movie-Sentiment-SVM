@@ -131,7 +131,7 @@ which is then processed by the model for prediction.
 ```
 Below is an example of the input screen:
 
-<img src="Screenshot_1.png" alt="First Image" width="600" />
+<img src="images/Screenshot_1.png" alt="First Image" width="600" />
 
 ### Step 2: View the Result
 ```bash
@@ -141,8 +141,9 @@ predicted category name.
 ```
 Below is an example of the result screen showing the model’s prediction:
 
-<img src="Screenshot_2.png" alt="Second Image" width="600" />
-<img src="Screenshot_3.png" alt="Second Image" width="600" />
+<img src="images/Screenshot_2.png" alt="Second Image" width="600" />
+<img src="images/Screenshot_3.png" alt="Second Image" width="600" />
+<img src="images/Screenshot_2.png" alt="Second Image" width="250" />
 
 In this case, the model successfully predicted that the input review is Positive or Negative.
 
@@ -155,3 +156,4 @@ predicts sentiment categories. For example, a complex review is predicted as:
 Predicted Sentiment: Positive
 Predicted Sentiment: Negative
 ```
+
